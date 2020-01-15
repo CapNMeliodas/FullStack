@@ -1,0 +1,14 @@
+
+{% extends 'base_close.html' %}
+
+{% block title %}Home{% endblock %}
+
+{% block close_content %}
+  <section class="section">
+      <div id="app" class="container"><!-- React --></div>
+  </section>
+
+{% load static %}
+<script src="{% static "frontend/main.js" %}"></script>
+
+{% endblock %}
